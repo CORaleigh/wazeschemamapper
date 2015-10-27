@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    rack (1.6.4)
+    rack (1.5.2)
     rack-protection (1.5.3)
       rack
     rake (10.4.2)
