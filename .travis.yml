@@ -1,4 +1,4 @@
 language: ruby
 rvm:
-  - 2.2.2p95
+  - 2.2.1p85
 
