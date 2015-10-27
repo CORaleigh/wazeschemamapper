@@ -7,6 +7,6 @@ end
 get '/getEventData' do
   content_type 'application/json'
   puts "consume arcgis endpoint and map response to waze format"
-  return "test"
+  return "testing 123"
 end
 
