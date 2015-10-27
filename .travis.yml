@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - ruby-head
+- 2.0.0
+deploy:
+  provider: openshift
+  user: sardeenz@gmail.com
+  password:
+    secure: IBepP15U8kBsjQ0S1kb0R+sFMNn7cmDkXHLOwElv86mQUBPAinhWmi8OXVXsW+tihbae6T8kDB3jZrQdxkRlacCZNFYSuCzjxXie0jPw7TP17akiJOYbPTaTUJ7C1TB2YDIzSKluudTZ9SIR4/aa/iuk3iGz46I/BtY87lVuA7Bo0zYRSSirQf9NuV/8zXhLRZVNOOyiM5HlMyN6yOO28Y5ADpqQDNM8QJiJuzbct1OGBCT5FCUm/EYkbcYoRWY66o5eJc8qKeyiVgM7UC7Wqr+AOP2btHBt27i2s3nbS3j/YiCUdDGZgcDxTTb+JdMpY5v74Xj3cBwsrMqVBxVR2EouMfuyoN0fZcQ/eqtQB56/tvIcmtLKPcBOU+590EBWGPlfH4eZ40P4xVyQS6RINGMA4EGh+Bd/QA9u4whfaMYZvzP5w7pazS43GTQ1cY8y7GuwiRn4Ag9bP25GPDK7CyfjJ/MS2OJYE7RbGEnypyd9KtyHE4zovSncsyGrHK0eKIuNbYy0u1F5qgrzFPrbQpRfViO8HaBWf/egCdRyYrrVX6yYo+eKwaBxSANPxYq975aXFpglMU0Zw1ab9OJgxjVclwNqyEFqzjiJTlyhG9OlejksDWqLfn2eBbzij+g1ZIQE+6Atjod6KZ183dDl5voE7bMOmBx9/x/bp5dWE4M=
+  app: wazemapper
+  domain: chadfoley
